@@ -1,0 +1,350 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 8, 2025, 10:17:39 AM
+    Author     : Admin
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg);
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    flex:1;
+    padding-left: 100px;
+}
+
+.logo li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.logo-img{
+    width: 60px;
+    height: 50px;
+}
+
+.navbar-expand-lg{
+    width: 100%;
+}
+
+.navbar
+{
+    background-color: #17a2b8;
+}
+
+
+.juice{
+    font-family: 'Arial', sans-serif; /* Thay đổi phông chữ */
+    font-size: 20px; /* Điều chỉnh kích thước chữ */
+    font-weight: bold; /* Tạo độ đậm */
+    color: black; /* Thay đổi màu sắc */
+ 
+}
+
+.container-fluid{
+    justify-content: center;
+}
+
+.container-fluid .nav-item{
+   font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+.breadcrumb{
+    height: 50px;
+    margin-left: 20%;
+    align-items: center;
+}
+
+
+
+.d-flex {
+    /* position: absolute;
+    left: 50%; */
+    margin-left: 20%;
+    width: 100%;
+    margin-right: 10%;
+}
+
+.c-item{
+    height: 600px;
+    text-align: center;
+}
+
+.c-img{
+    text-align: center;
+    height: 100%;
+    object-fit: cover;
+    /* filter: brightness(0.6); */
+}
+
+.carousel-inner img{
+    height: 600px;
+    width: 60%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+    background-color: red;
+}
+
+.nav-link {
+    color: white !important; /* White text for nav links */
+    margin-right: 30px; /* Space between nav links */
+}
+
+.nav-link:hover {
+    color: #f0ad4e !important; /* Highlight on hover */
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center elements horizontally */
+        margin: 10px;
+    }
+    .form-control {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.featured-products,
+.categories {
+    margin-bottom: 40px;
+
+}
+
+.featured-products h2,
+.categories h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Add a subtle underline */
+    padding-bottom: 10px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow products to wrap to the next line */
+    justify-content: space-between; /* Distribute products evenly */
+    margin-top: 40px;
+}
+
+.product {
+
+    width: 100%; /* Adjust width for desired number of columns */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a light border */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Center product content */
+    background-color: white;
+    height: 600px;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    max-height: 100%;
+ 
+}
+
+.product h3 {
+    margin-bottom: 70px;
+    height: 90px;
+}
+
+.product p {
+    margin-bottom: 15px;
+}
+
+
+
+.product button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+/* CSS cho ảnh trong featured-products */
+
+.featured-products .product-list .product img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của .product */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ khung hình */
+    display: block; /* Loại bỏ khoảng trắng nhỏ dưới ảnh */
+    margin: 0 auto; /* Căn giữa ảnh theo chiều ngang */
+    border-radius: 8px; /* Bo tròn góc ảnh (tùy chọn) */
+       height: 264px;
+}
+
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+
+.row .col-sm-3{
+    margin-top: 50px;
+}
+
+
+.product img {
+    width: 100%; /* Đảm bảo ảnh hiển thị tốt */
+    transition: opacity 0.2s ease, filter 0.2s ease;
+
+}
+
+.product img:hover {
+    opacity: 0.5; /* Làm mờ ảnh bằng cách giảm độ trong suốt */
+    cursor: pointer;
+
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.product-image {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e74c3c;  /* Đỏ nổi bật */
+    margin: 10px 0;
+}
+
+.product-desc {
+    font-size: 16px;
+    color: #666;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.quantity-box input {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.quantity-box button {
+    background-color: #27ae60; /* Xanh lá */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.quantity-box button:hover {
+    background-color: #219150;
+}
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/model/Product.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/controller/ShowController.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/web/Menu.jsp</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/dal/ProductDao.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/controller/BuyController.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/web/mycart.jsp</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/model/Cart.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/web/Details.jsp</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/model/Item.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/model/Product.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/controller/ProcessController.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/model/Category.java</file>
+            <file>file:/D:/baokhanh/study%202024/SP2025/PRJ301/Project_PRJ301/src/java/dal/UserDao.java</file>
+        </group>
+    </open-files>
+</project-private>
